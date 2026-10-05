@@ -1,0 +1,32 @@
+Notas POO Stdt
+
+.CPP - Escribir código
+.H - Header
+
+Main.cpp
+
+Int
+Void()
+Class{}
+Enum{}
+
+#Include
+
+Using.Unity.Engine
+Input.Actions
+TMP
+
+Un compilador traduce el código fuente a un lenguaje de ensamblador.
+Los chips usan lenguaje de ensamblador y depende cual será el compilador.
+Chips ARM y x86
+
+Error de referencias - #include no existe
+
+El Linker une el include al main para crear un .exe y poder correr el código.
+
+Aquí ocurren los errores de runtime.
+
+Para escribir en consola se utiliza el std::cout <<
+O también se puede escribir con el using namespace std;
+
+Compilar la solución sin depurar no ejecuta el programa, solo checa si no hay errores en los procesos.

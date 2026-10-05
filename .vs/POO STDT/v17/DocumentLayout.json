@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\POO STDT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6142B72-3832-4E29-8A8A-833CFAC1E1DB}|Clase 1 POO\\Clase 1 POO.vcxproj|C:\\Users\\Alumno\\Desktop\\POO STDT\\Clase 1 POO\\Clase 1 POO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6142B72-3832-4E29-8A8A-833CFAC1E1DB}|Clase 1 POO\\Clase 1 POO.vcxproj|solutionrelative:Clase 1 POO\\Clase 1 POO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Clase 1 POO.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\POO STDT\\Clase 1 POO\\Clase 1 POO.cpp",
+              "RelativeDocumentMoniker": "Clase 1 POO\\Clase 1 POO.cpp",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\POO STDT\\Clase 1 POO\\Clase 1 POO.cpp",
+              "RelativeToolTip": "Clase 1 POO\\Clase 1 POO.cpp",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-05T15:15:31.865Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
