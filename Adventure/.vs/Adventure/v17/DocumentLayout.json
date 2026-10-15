@@ -1,0 +1,146 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alumno\\source\\repos\\Adventure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2921071D-D852-4F3C-AA68-E99F4D751574}|Adventure\\Adventure.vcxproj|C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Adventure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2921071D-D852-4F3C-AA68-E99F4D751574}|Adventure\\Adventure.vcxproj|solutionrelative:Adventure\\Adventure.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2921071D-D852-4F3C-AA68-E99F4D751574}|Adventure\\Adventure.vcxproj|C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Dise\u00F1ador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2921071D-D852-4F3C-AA68-E99F4D751574}|Adventure\\Adventure.vcxproj|solutionrelative:Adventure\\Dise\u00F1ador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2921071D-D852-4F3C-AA68-E99F4D751574}|Adventure\\Adventure.vcxproj|C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Abogado.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2921071D-D852-4F3C-AA68-E99F4D751574}|Adventure\\Adventure.vcxproj|solutionrelative:Adventure\\Abogado.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2921071D-D852-4F3C-AA68-E99F4D751574}|Adventure\\Adventure.vcxproj|C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Dise\u00F1ador.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2921071D-D852-4F3C-AA68-E99F4D751574}|Adventure\\Adventure.vcxproj|solutionrelative:Adventure\\Dise\u00F1ador.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2921071D-D852-4F3C-AA68-E99F4D751574}|Adventure\\Adventure.vcxproj|C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Desarrollador.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2921071D-D852-4F3C-AA68-E99F4D751574}|Adventure\\Adventure.vcxproj|solutionrelative:Adventure\\Desarrollador.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2921071D-D852-4F3C-AA68-E99F4D751574}|Adventure\\Adventure.vcxproj|C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Empleado.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2921071D-D852-4F3C-AA68-E99F4D751574}|Adventure\\Adventure.vcxproj|solutionrelative:Adventure\\Empleado.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2921071D-D852-4F3C-AA68-E99F4D751574}|Adventure\\Adventure.vcxproj|C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Empleado.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2921071D-D852-4F3C-AA68-E99F4D751574}|Adventure\\Adventure.vcxproj|solutionrelative:Adventure\\Empleado.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 306,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Empleado.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Empleado.cpp",
+              "RelativeDocumentMoniker": "Adventure\\Empleado.cpp",
+              "ToolTip": "C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Empleado.cpp",
+              "RelativeToolTip": "Adventure\\Empleado.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-15T15:29:22.311Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Adventure.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Adventure.cpp",
+              "RelativeDocumentMoniker": "Adventure\\Adventure.cpp",
+              "ToolTip": "C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Adventure.cpp",
+              "RelativeToolTip": "Adventure\\Adventure.cpp",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwBoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-15T15:28:53.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Abogado.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Abogado.cpp",
+              "RelativeDocumentMoniker": "Adventure\\Abogado.cpp",
+              "ToolTip": "C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Abogado.cpp",
+              "RelativeToolTip": "Adventure\\Abogado.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-15T16:20:45.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dise\u00F1ador.cpp",
+              "DocumentMoniker": "C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Dise\u00F1ador.cpp",
+              "RelativeDocumentMoniker": "Adventure\\Dise\u00F1ador.cpp",
+              "ToolTip": "C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Dise\u00F1ador.cpp",
+              "RelativeToolTip": "Adventure\\Dise\u00F1ador.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-15T16:24:01.919Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dise\u00F1ador.h",
+              "DocumentMoniker": "C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Dise\u00F1ador.h",
+              "RelativeDocumentMoniker": "Adventure\\Dise\u00F1ador.h",
+              "ToolTip": "C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Dise\u00F1ador.h",
+              "RelativeToolTip": "Adventure\\Dise\u00F1ador.h",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-15T16:23:58.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Empleado.h",
+              "DocumentMoniker": "C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Empleado.h",
+              "RelativeDocumentMoniker": "Adventure\\Empleado.h",
+              "ToolTip": "C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Empleado.h",
+              "RelativeToolTip": "Adventure\\Empleado.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-15T15:29:14.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Desarrollador.h",
+              "DocumentMoniker": "C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Desarrollador.h",
+              "RelativeDocumentMoniker": "Adventure\\Desarrollador.h",
+              "ToolTip": "C:\\Users\\Alumno\\source\\repos\\Adventure\\Adventure\\Desarrollador.h",
+              "RelativeToolTip": "Adventure\\Desarrollador.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-15T16:22:02.847Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
