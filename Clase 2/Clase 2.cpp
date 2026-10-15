@@ -106,9 +106,9 @@ char PlayerPiece();
 char CPUPiece(char piece);
 
 int MovePlayer(std::vector<char> board);
-void MoveCPU();
+int MoveCPU(std::vector<char>& board, char piece);
 
-void Winer();
+char Winner(std::vector<char> board);
 
 bool IsEmpty(int pos, const std::vector<char>* board);
 
@@ -127,11 +127,36 @@ int main()
 	DisplayBoard(&board);
 	char human = PlayerPiece();
 	char CPU = CPUPiece(human);
+	char turn = X;
 
 	std::cout << "You are " << human << " and the CPU is " << CPU << std::endl;
-
-	board[MovePlayer(board)] = human;
 	DisplayBoard(&board);
+
+	while (Winner(board) == NOTIE)
+	{
+		if (turn == human)
+		{
+			std::cout << "Your turn." << std::endl;
+			board[MovePlayer(board)] = human;
+			DisplayBoard(&board);
+		}
+		else
+		{
+			std::cout << "CPU's turn." << std::endl;
+			board[MoveCPU(board, CPU)] = CPU;
+			DisplayBoard(&board);
+		}
+		if (turn == X)
+		{
+			turn = O;
+		}
+		else
+		{
+			turn = X;
+		}
+	}
+	
+	
 
 }
 
@@ -197,14 +222,79 @@ int MovePlayer(std::vector<char> board)
 	return move;
 }
 
-void MoveCPU()
+int MoveCPU(std::vector<char>& board, char piece)
 {
+	std::vector<char> tempBoard = board;
+	const char opponentPiece = (piece == 'X') ? 'O' : 'X';
 
+	static const int bestMoves[9] = { 4, 0, 2, 6, 8, 1, 3, 5, 7 };
+	int i = 0;
+	int move = 0;
+	bool foundMove = false;
+
+	while(foundMove == false && move < board.size())
+	{
+		if (IsEmpty(move, &board))
+		{
+			board[move] = opponentPiece;
+			foundMove = (Winner(board) == opponentPiece);
+			board[move] = EMPTY;
+		}
+		if (!foundMove)
+		move++;
+	}
+
+	while (!foundMove && move < board.size())
+	{
+		if (IsEmpty(move, &board))
+		{
+			board[move] = piece;
+			foundMove = (Winner(board) == piece);
+			board[move] = EMPTY;
+		}
+		if (!foundMove)
+		move++;
+	}
+	if (!foundMove)
+	{
+		move = 0;
+
+		while (i < board.size())
+		{
+			int move = bestMoves[i];
+			if (IsEmpty(move, &board))
+			{
+				return move;
+			}
+			i++;
+		}
+	}
+		return move;
 }
 
-void Winer()
+char Winner(std::vector<char> board)
 {
-
+	const int WINNING_COMBOS[8][3] = {
+		{0, 1, 2},
+		{3, 4, 5},
+		{6, 7, 8},
+		{0, 3, 6},
+		{1, 4, 7},
+		{2, 5, 8},
+		{0, 4, 8},
+		{2, 4, 6}
+	};
+	for(int i = 0; i < 8; i++)
+	{
+		if ((board)[WINNING_COMBOS[i][0]] != EMPTY &&
+			(board)[WINNING_COMBOS[i][0]] == (board)[WINNING_COMBOS[i][1]] &&
+			(board)[WINNING_COMBOS[i][1]] == (board)[WINNING_COMBOS[i][2]])
+			return (board)[WINNING_COMBOS[i][0]];
+	}
+	if(std::count(board.begin(), board.end(), EMPTY) == 0)
+		return TIE;
+	else
+		return NOTIE;
 }
 
 bool IsEmpty(int pos, const std::vector<char>* board)
