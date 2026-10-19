@@ -1,10 +1,13 @@
 #pragma once
 #include <iostream>
-#include "Character.h"
+#include "Player.h"
+#include "Enemy.h"
+
 class Game
 {
 private:
-	Character player;
+	Player player;
+	Enemy* enemy;
 	int choice;
 	bool playing;
 
@@ -18,6 +21,8 @@ public:
 	void LoadPlayerData();
 	void NewPlayer();
 	void PrintPlayerStats();
+	void NewEnemy();
+	void PrintEnemyStats();
 
 	bool GetPlaying();
 };
