@@ -21,6 +21,7 @@ void Game::mainMenu()
 	std::cout << "0: Exit Game" << std::endl;
 	std::cout << "1: Player Stats" << std::endl;
 	std::cout << "2: Fight" << std::endl;
+	std::cout << "3: Travel" << std::endl;
 	std::cout << "Enter your choice: ";
 	std::cin >> choice;
 
@@ -37,10 +38,19 @@ void Game::mainMenu()
 		std::cout << "Displaying enemy stats..." << std::endl;
 		NewEnemy();
 		break;
+	case 3:
+		std::cout << "Travelling" << std::endl;
+		Travel();
+		break;
 	default:
 		std::cout << "Invalid choice. Please try again." << std::endl;
 		break;
 	}
+}
+
+void Game::Travel()
+{
+	v.GenerateEvent(player);
 }
 
 void Game::SavePlayerData()

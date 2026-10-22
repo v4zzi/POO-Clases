@@ -1,2 +1,5 @@
-﻿  Character.cpp
-  AdventureTime.vcxproj -> C:\Users\Alumno\source\repos\AdventureTime\x64\Debug\AdventureTime.exe
+﻿  AdventureTime.cpp
+  Game.cpp
+C:\Users\Alumno\Documents\Github\POO-Clases\AdventureTime\AdventureTime\Game.cpp(77,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  AdventureTime.vcxproj -> C:\Users\Alumno\Documents\Github\POO-Clases\AdventureTime\x64\Debug\AdventureTime.exe

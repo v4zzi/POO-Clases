@@ -18,6 +18,9 @@ public:
 	virtual ~Character();
 	void InitCharacter(std::string N);
 	void PrintStats();
+	void TakeDamage(int d);
+	const int DoDamage();
+	bool IsAlive();
 
 	//Gets
 	std::string GetName() { return name; }

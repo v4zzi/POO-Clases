@@ -3,7 +3,7 @@
 Character::Character()
 {
 	this->name = "";
-	this->level = 0;
+	this->level = 1;
 	this->hp = 0;
 	this->exp = 0;
 	this->damageMin = 0;
@@ -30,4 +30,20 @@ void Character::PrintStats()
 	std::cout << "Damage: " << this->damageMin << "/" << this->damageMax << std::endl;
 	std::cout << "Defense: " << this->defense << std::endl;
 	std::cout << "--------------------" << std::endl;
+}
+
+void Character::TakeDamage(int d)
+{
+	this->hp -= d;
+}
+
+const int Character::DoDamage()
+{
+	return (rand() % (this->damageMax - this->damageMin + 1)) + this->damageMin;
+
+}
+
+bool Character::IsAlive()
+{
+	return (this->hp > 0);
 }

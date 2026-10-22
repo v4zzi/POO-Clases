@@ -8,6 +8,7 @@ public:
     Enemy(std::string name, 
         int l, int hp, int exp, int damage,
         int defense);
+    Enemy();
     ~Enemy();
     void InitEnemy();
     void PrintEnemyStats();

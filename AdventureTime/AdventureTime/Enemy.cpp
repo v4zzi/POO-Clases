@@ -11,6 +11,10 @@ Enemy::Enemy(std::string name, int l, int hp, int exp, int damage, int defense) 
 	SetDefense(defense);
 }
 
+Enemy::Enemy()
+{
+}
+
 void Enemy::InitEnemy()
 {
 }
