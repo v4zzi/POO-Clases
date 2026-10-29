@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <fstream>
 #include "Player.h"
 #include "Enemy.h"
 #include "Event.h"
@@ -21,10 +22,13 @@ public:
 
 	void Travel();
 
-	void SavePlayerData();
-	void LoadPlayerData();
+	void SavePlayer();
+	void LoadPlayer();
 	void NewPlayer();
 	void PrintPlayerStats();
+	void LevelUp();
+	void SkillUp();
+
 	void NewEnemy();
 	void PrintEnemyStats();
 

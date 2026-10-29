@@ -82,7 +82,7 @@ void Event::EnemyEncounter(Player& p)
 			case 1: //Attack
 				std::system("cls");
 				attackRoll = rand() % 20 + 1;
-				if (attackRoll > (50 - p.GetDexterity() - p.GetAgiltiy()))
+				if (attackRoll > (50 - p.GetDexterity() - p.GetAgility()))
 				{
 					std::cout << "Player Hit Enemy" << std::endl;
 					baseEnemy->TakeDamage(p.DoDamage());
